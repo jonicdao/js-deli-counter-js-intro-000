@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, name) {
 function nowServing(katzDeliLine) {
   let i =0
   while (i < katzDeliLine.length) {
-    return katzDeliLine[i]
+    return 'Currently serving ' + katzDeliLine[i].name
     katzDeliLine.shift()
     i++
   }
