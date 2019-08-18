@@ -19,7 +19,7 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   while (katzDeliLine.length > 0) {
     var array = []
-    for (var i = 0; i < katsDeliLine.length; i++)
+    for (var i = 0; i < katzDeliLine.length; i++)
     array.push(' ${i+1}. ${line[1]}')
     return "The Lien is currently: " + array
   }
