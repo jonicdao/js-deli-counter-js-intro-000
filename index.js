@@ -21,6 +21,7 @@ function currentLine(katzDeliLine) {
     var array = []
     for (var i = 0; i < katsDeliLine.length; i++)
     array.push(' ${i+1}. ${line[1]}')
+    return "The Lien is currently: " + array
   }
     return "The line is currently empty."
 }
