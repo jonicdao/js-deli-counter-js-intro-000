@@ -12,8 +12,8 @@ function takeANumber(katzDeliLine, name) {
 //     return 'Currently serving ' + nowServing + '.'
 //   }
 //   else {
-  return "There is nobody waiting to be served!"
-  }
+//   return "There is nobody waiting to be served!"
+//   }
 }
 
 function currentLine(katzDeliLine) {
