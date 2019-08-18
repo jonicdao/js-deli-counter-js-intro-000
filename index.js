@@ -9,7 +9,7 @@ function nowServing(katzDeliLine) {
   let i =0
   while (i < katzDeliLine.length) {
     return 'Currently serving ' + katzDeliLine[i] + '.'
-    katzDeliLine.shift()
+    katzDeliLine.shift(i)
   }
   return "There is nobody waiting to be served!"
 }
